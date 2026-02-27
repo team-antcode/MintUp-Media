@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -68,7 +69,7 @@ export default function About() {
         </div>
 
         {/* Right — Image Slider */}
-        <div className="section-reveal stagger-2 w-full h-full min-h-[400px] relative rounded-[2rem] overflow-hidden border border-white/10 group">
+        <div className="section-reveal stagger-2 w-full h-full min-h-100 relative rounded-4xl overflow-hidden border border-white/10 group">
           {sliderImages.map((src, idx) => (
             <div
               key={src}
