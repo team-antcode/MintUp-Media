@@ -115,7 +115,7 @@ export default function Hero() {
 
         {/* Brand Logos */}
         <div className="mt-16 md:mt-24 w-full flex flex-col items-center">
-          <p className="text-white/30 text-center text-[10px] sm:text-xs font-bold tracking-[0.2em] uppercase mb-6">
+          <p className="text-white/30 text-center text-[11px] sm:text-xs font-bold tracking-[0.2em] uppercase mb-6">
             Trusted by Leading Brands
           </p>
 
@@ -132,22 +132,22 @@ export default function Hero() {
                       {
                         src: '/Mindika.png',
                         alt: 'Mindika Enterprises',
-                        className: 'h-8 sm:h-10 md:h-22',
+                        className: 'h-16 sm:h-10 md:h-22',
                       },
                       {
                         src: '/Mintup.png',
                         alt: 'Mintup Media',
-                        className: 'h-7 sm:h-9 md:h-22',
+                        className: 'h-16 sm:h-9 md:h-22',
                       },
                       {
                         src: '/NeilBakery.png',
                         alt: 'Neil Bakery',
-                        className: 'h-8 sm:h-10 md:h-18',
+                        className: 'h-14 sm:h-10 md:h-18',
                       },
                       {
                         src: '/Formar.png',
                         alt: 'Formar Clothing',
-                        className: 'h-7 sm:h-9 md:h-15 bg-white p-2 rounded-xl',
+                        className: 'h-10 sm:h-9 md:h-15 bg-white p-2 rounded-xl',
                       },
                     ].map((logo, i) => (
                       <div
