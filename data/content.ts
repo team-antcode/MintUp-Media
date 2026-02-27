@@ -24,17 +24,17 @@ export const heroContent = {
 };
 
 export const aboutContent = {
-  label: 'About Me',
-  headline: 'Turning Ideas into Polished Digital Products',
+  label: 'About Us',
+  headline: 'We Build Your Landing Pages & Grow Your Brand',
   paragraphs: [
-    "I'm a creative developer and designer with a passion for building modern, high-performance web experiences. I work at the intersection of design and engineering — ensuring every pixel is intentional and every line of code is clean.",
-    'From early-stage startups to established SaaS products, I help founders and teams ship beautiful software fast.',
+    'MindUp Media is a powerhouse for digital growth. We specialize in building high-converting landing pages, expert content creation, and comprehensive social media handling that puts your brand in front of the right audience.',
+    'From strategic social media management to pixel-perfect web development, we ensure your digital presence is not just beautiful, but a results-driven asset for your business.',
   ],
   stats: [
-    { value: '50+', label: 'Projects Shipped' },
-    { value: '3+', label: 'Years Experience' },
+    { value: '100+', label: 'Landing Pages Built' },
+    { value: '500K+', label: 'Total Reach' },
     { value: '100%', label: 'Client Satisfaction' },
-    { value: '24h', label: 'Avg. Response Time' },
+    { value: '24/7', label: 'Support & Strategy' },
   ] as Stat[],
 };
 
@@ -112,16 +112,16 @@ export const services: ServiceCard[] = [
 
 export const projects: PortfolioProject[] = [
   {
-    title: 'NexaFlow — SaaS Dashboard',
+    title: 'Neil Bakery - Marketing Website',
     description:
-      'A real-time analytics dashboard for SaaS teams with custom reporting and role-based access control.',
-    tags: ['Next.js', 'TypeScript', 'Prisma'],
+      'A responsive marketing website for a local bakery with an integrated online ordering system.',
+    tags: ['Next.js', 'TypeScript', 'Tailwind CSS'],
   },
   {
-    title: 'Verida — AI Writing Tool',
+    title: 'Hired - AI Based Mock interview Platform',
     description:
-      'AI-powered content creation platform with collaborative editing and brand voice customization.',
-    tags: ['React', 'OpenAI', 'Supabase'],
+      'An AI-powered mock interview platform that simulates real interview scenarios and provides feedback to users.',
+    tags: ['React', 'OpenAI', 'Supabase', 'FastAPI'],
   },
   {
     title: 'Cartly — E-commerce Platform',

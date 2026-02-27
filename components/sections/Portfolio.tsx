@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { projects } from '@/data/content';
 import SectionWrapper from '@/components/SectionWrapper';
 
@@ -27,19 +28,19 @@ export default function Portfolio() {
         {projects.map((project, i) => (
           <div
             key={i}
-            className={`section-reveal stagger-${(i % 4) + 1} group border border-white/10 bg-[#0a0a0a] rounded-[2rem] transition-all duration-300 hover:border-white/20 hover:-translate-y-2 hover:shadow-[0_10px_40px_rgba(79,255,176,0.05)] overflow-hidden p-0!`}
+            className={`section-reveal stagger-${(i % 4) + 1} group border border-white/10 bg-[#0a0a0a] rounded-4xl transition-all duration-500 ease-out hover:border-white/20 hover:scale-[1.02] hover:-translate-y-2 hover:shadow-[0_10px_40px_rgba(79,255,176,0.05)] overflow-hidden p-0!`}
           >
             {/* Project image preview area */}
             <div className="relative h-60 w-full overflow-hidden border-b border-white/10">
               <img
                 src={
                   [
-                    'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
-                    'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=800&q=80',
-                    'https://images.unsplash.com/photo-1522542550221-31fd19575a2d?auto=format&fit=crop&w=800&q=80',
-                    'https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=800&q=80',
-                    'https://images.unsplash.com/photo-1558655146-d09347e92766?auto=format&fit=crop&w=800&q=80',
-                    'https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=800&q=80',
+                    'Neil.png',
+                    'Hired.png',
+                    '/project-3.jpg',
+                    '/project-4.jpg',
+                    '/project-5.jpg',
+                    '/project-6.jpg',
                   ][i % 6]
                 }
                 alt={project.title}
@@ -60,8 +61,9 @@ export default function Portfolio() {
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-3.5 py-1.5 rounded-full text-[11px] font-black uppercase tracking-widest
-                      bg-white/5 border border-white/8 text-white/40 group-hover:text-[#4fffb0] group-hover:border-[#4fffb0]/20 transition-all duration-300"
+                    className={`px-3.5 py-1.5 rounded-full text-[11px] font-black uppercase tracking-widest
+                  bg-white/5 border border-white/8 text-white/40 transition-all duration-300 
+                  ${['Next.js', 'TypeScript', 'Prisma'].includes(tag) ? 'group-hover:text-white group-hover:border-white/20' : 'group-hover:text-[#4fffb0] group-hover:border-[#4fffb0]/20'}`}
                   >
                     {tag}
                   </span>

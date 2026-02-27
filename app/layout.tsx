@@ -10,23 +10,25 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title:
-    'MindUp Media | Digital Marketing & Social Media Agency based in Sri Lanka',
+    'MindUp Media | Premium Landing Pages & Social Media Marketing Sri Lanka',
   description:
-    "MindUp Media is a premier social media marketing agency based in Sri Lanka, dedicated to elevating your brand's online presence. We specialize in crafting compelling content, SEO optimization, and executing strategic campaigns that drive engagement and growth across all major platforms.",
+    "MindUp Media is Sri Lanka's leading digital agency for high-converting landing pages, expert social media management, and content creation. Scale your brand with our premium digital products and data-driven marketing strategies.",
   keywords: [
-    'social media marketing agency in sri lanka',
-    'content creation',
-    'brand growth',
+    'social media marketing agency sri lanka',
+    'best landing page developers sri lanka',
+    'content creation agency',
+    'social media handling services',
     'digital marketing sri lanka',
     'seo optimization sri lanka',
-    'social media strategy',
+    'high-converting landing pages',
     'MindUp Media',
+    'web development sri lanka',
   ],
   openGraph: {
     title:
-      'MindUp Media | Digital Marketing & Social Media Agency based in Sri Lanka',
+      'MindUp Media | Premium Landing Pages & Social Media Marketing Sri Lanka',
     description:
-      "MindUp Media is a premier social media marketing agency based in Sri Lanka, dedicated to elevating your brand's online presence. We specialize in crafting compelling content, SEO optimization, and executing strategic campaigns that drive engagement and growth across all major platforms.",
+      'Scale your brand with MindUp Media. Expert landing pages, social media management, and content creation that drives real business growth.',
     type: 'website',
   },
 };

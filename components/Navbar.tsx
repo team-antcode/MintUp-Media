@@ -35,15 +35,13 @@ export default function Navbar() {
   return (
     <>
       <header className="fixed top-0 left-0 right-0 z-50 pt-5 px-6">
-        <nav className="max-w-5xl mx-auto bg-[#0a0a0a]/90 backdrop-blur-xl rounded-3xl border border-white/8 px-6 py-3.5 shadow-[0_8px_32px_rgba(0,0,0,0.4)] flex items-center justify-between">
+        <nav className="max-w-5xl mx-auto bg-[#0a0a0a]/90 backdrop-blur-xl rounded-3xl border border-white/8 px-6 h-70px] shadow-[0_8px_32px_rgba(0,0,0,0.4)] flex items-center justify-between">
           {/* Logo */}
           <button
             onClick={() => scrollTo('#home')}
             className="flex items-center cursor-pointer group"
           >
-            <span className="text-white font-bold text-xl lowercase tracking-tight">
-              Logo<span className="text-[#ff6b6b]"></span>
-            </span>
+            <img src="/logo.png" alt="Logo" className="h-16 w-auto" />
           </button>
 
           {/* Desktop Nav - Centered */}

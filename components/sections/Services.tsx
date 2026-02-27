@@ -77,7 +77,7 @@ export default function Services() {
         {mainServices.map((service, i) => (
           <div
             key={i}
-            className={`section-reveal stagger-${(i % 3) + 1} flex flex-col bg-[#0a0a0a] border border-white/10 rounded-3xl overflow-hidden group transition-all duration-300 ease-out hover:-translate-y-2 hover:border-white/20 hover:shadow-[0_10px_40px_rgba(79,255,176,0.05)]`}
+            className={`section-reveal stagger-${(i % 3) + 1} flex flex-col bg-[#0a0a0a] border border-white/10 rounded-3xl overflow-hidden group transition-all duration-500 ease-out hover:-translate-y-2 hover:scale-[1.02] hover:border-white/20 hover:shadow-[0_10px_40px_rgba(79,255,176,0.05)]`}
           >
             {/* Top Image Area */}
             <div className="relative h-56 w-full overflow-hidden">

@@ -5,29 +5,34 @@ import SectionWrapper from '@/components/SectionWrapper';
 
 const faqs = [
   {
-    question: 'How long does a typical project take?',
+    question: 'What services does MindUp Media offer?',
     answer:
-      'Most landing pages take 1-2 weeks, while full SaaS platforms can take 4-8 weeks. I prioritize rapid delivery without compromising on the premium quality of the output.',
+      'We specialize in building high-converting landing pages, social media management, content creation, and comprehensive digital marketing strategies. We handle everything from web development to growing your brand across social platforms.',
   },
   {
-    question: 'Do you design and code everything yourself?',
+    question: 'How long does it take to build a landing page?',
     answer:
-      'Yes! By handling both design and development, I ensure the final product looks exactly like the design, with flawless animations and responsive layouts.',
+      'Most landing pages are completed within 1-2 weeks, depending on complexity. We focus on rapid delivery while ensuring pixel-perfect design and optimal conversion rates.',
   },
   {
-    question: 'What tech stack do you use?',
+    question: 'Do you handle social media management?',
     answer:
-      'I specialize in modern, high-performance web technologies: Next.js, React, TypeScript, Tailwind CSS, and Framer Motion for animations. For backend, I typically use Prisma, Supabase, or Firebase.',
+      'Absolutely! We offer full-service social media management including content creation, posting schedules, engagement strategies, and performance analytics. We help you build a consistent brand presence that drives real engagement and growth.',
   },
   {
-    question: 'Do you provide ongoing support after launch?',
+    question: 'What platforms do you work with?',
     answer:
-      'Absolutely. I offer specialized retainer packages for content updates, new features, and ongoing maintenance to ensure your product continues to scale smoothly.',
+      'We work across all major social media platforms including Instagram, Facebook, LinkedIn, Twitter, and TikTok. For web development, we use modern technologies like Next.js, React, TypeScript, and Tailwind CSS.',
   },
   {
-    question: 'How do we get started?',
+    question: 'Do you provide ongoing support after project completion?',
     answer:
-      "It starts with a discovery call. We'll discuss your goals, timeline, and budget. If it's a good fit, I'll send over a proposal and we can kick off the project immediately.",
+      'Yes! We offer ongoing support packages for website maintenance, content updates, social media management, and continuous optimization to ensure your digital presence keeps growing and performing at its best.',
+  },
+  {
+    question: 'How do we get started with MindUp Media?',
+    answer:
+      "Simply book a free consultation call with us. We'll discuss your goals, target audience, and budget. Then we'll create a custom strategy tailored to your business needs and can start immediately.",
   },
 ];
 
@@ -59,8 +64,8 @@ export default function FAQ() {
             key={index}
             className={`rounded-2xl border transition-colors duration-300 overflow-hidden ${
               openIndex === index
-                ? 'bg-white/5 border-white/20'
-                : 'bg-[#0a0a0a] border-white/5 hover:border-white/10 hover:bg-white/[0.02]'
+                ? 'border-white/20'
+                : 'bg-[#0a0a0a] border-white/5 hover:border-white/10 hover:bg-white/2'
             }`}
           >
             <button

@@ -42,7 +42,7 @@ export default function Testimonials() {
       <div className="absolute top-0 left-0 right-0 h-px bg-linear-to-r from-transparent via-white/6 to-transparent" />
 
       {/* Header */}
-      <div className="text-center mb-16 md:mb-24 px-6">
+      <div className="text-center mb-16 md:mb-20 px-6">
         <div className="section-reveal mb-4">
           <span className="inline-flex items-center justify-center px-6 py-2 rounded-full border border-white/20 text-white text-sm bg-white/5 mx-auto">
             Testimonials
@@ -59,8 +59,8 @@ export default function Testimonials() {
       {/* Marquee Container */}
       <div className="w-full overflow-hidden flex flex-col gap-6 md:gap-8 relative section-reveal stagger-2 -mx-6 px-6 md:mx-0 md:px-0">
         {/* Fading Edges */}
-        <div className="absolute inset-y-0 left-0 w-24 md:w-48 bg-gradient-to-r from-[#0a0a0a] to-transparent z-10 pointer-events-none" />
-        <div className="absolute inset-y-0 right-0 w-24 md:w-48 bg-gradient-to-l from-[#0a0a0a] to-transparent z-10 pointer-events-none" />
+        <div className="absolute inset-y-0 left-0 w-24 md:w-48 bg-linear-to-r from-[#0a0a0a] to-transparent z-10 pointer-events-none" />
+        <div className="absolute inset-y-0 right-0 w-24 md:w-48 bg-linear-to-l from-[#0a0a0a] to-transparent z-10 pointer-events-none" />
 
         {/* Row 1: Scroll Right */}
         <div className="flex w-max animate-scroll-right hover:[animation-play-state:paused] group">
@@ -96,7 +96,7 @@ function TestimonialCard({
   tags: string[];
 }) {
   return (
-    <div className="w-[320px] md:w-[450px] p-6 md:p-8 rounded-3xl bg-[#0d0d0d] border border-white/10 flex flex-col justify-between shrink-0 transition-all duration-300 hover:-translate-y-2 hover:border-white/20 hover:shadow-[0_10px_40px_rgba(79,255,176,0.05)]">
+    <div className="w-[320px] md:w-112.5 p-6 md:p-8 rounded-3xl bg-[#0d0d0d] border border-white/10 flex flex-col justify-between shrink-0 transition-all duration-300 hover:-translate-y-2 hover:border-white/20 hover:shadow-[0_10px_40px_rgba(79,255,176,0.05)]">
       <div>
         <div className="flex gap-1 mb-6 text-[#4fffb0] text-sm">★★★★★</div>
         <p className="text-white/70 text-sm md:text-base leading-relaxed mb-8 font-light">

@@ -39,8 +39,8 @@ export default function About() {
             </span>
           </h2>
 
-          {/* Decorative line */}
-          <div className="w-16 h-1 rounded-full bg-linear-to-r from-[#4fffb0] to-transparent mb-10" />
+          {/* Decorative line
+          <div className="w-16 h-1 rounded-full bg-linear-to-r from-[#4fffb0] to-transparent mb-10" /> */}
 
           {aboutContent.paragraphs.map((para, i) => (
             <p

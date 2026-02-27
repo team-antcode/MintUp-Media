@@ -10,14 +10,25 @@
 
 /* Unified Card Utility */
 .card-unified {
-  @apply rounded-3xl p-8 bg-white/2 border border-white/8 transition-all duration-350;
+  @apply rounded-3xl p-8 bg-white/2 border border-white/8 transition-all duration-500 ease-out;
 }
 
 .card-unified:hover {
-  @apply border-[#4fffb040] bg-white/4 -translate-y-2 scale-[1.01];
+  @apply border-[#4fffb040] bg-white/4 -translate-y-2 scale-[1.02];
   box-shadow:
     0 0 50px rgba(79, 255, 176, 0.08),
     0 8px 40px rgba(0, 0, 0, 0.5);
+}
+
+.gradient-mint-bg {
+  background: linear-gradient(135deg, #4fffb0, #00e5cc);
+  background-size: 200% auto;
+  transition: 0.5s;
+}
+
+.gradient-mint-bg:hover {
+  background-position: right center;
+  box-shadow: 0 0 30px rgba(79, 255, 176, 0.4);
 }
 
 body {
@@ -149,5 +160,5 @@ body {
 }
 
 .animate-scroll-right {
-  animation: scroll-right 80s linear infinite;
+  animation: scroll-right 30s linear infinite;
 }

@@ -29,7 +29,7 @@ export default function WhyChooseUs() {
         {features.map((feature, i) => (
           <div
             key={i}
-            className={`section-reveal stagger-${i + 1} border border-white/10 bg-[#0a0a0a] rounded-[2rem] p-8 md:p-10 transition-all duration-300 hover:border-white/20 hover:-translate-y-2 hover:shadow-[0_10px_40px_rgba(79,255,176,0.05)] group`}
+            className={`section-reveal stagger-${i + 1} border border-white/10 bg-[#0a0a0a] rounded-4xl p-8 md:p-10 transition-all duration-500 ease-out hover:border-white/20 hover:-translate-y-2 hover:scale-[1.02] hover:shadow-[0_10px_40px_rgba(79,255,176,0.05)] group`}
           >
             {/* Icon */}
             <div

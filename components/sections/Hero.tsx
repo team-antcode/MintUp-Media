@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import { useEffect, useRef } from 'react';
@@ -83,16 +84,16 @@ export default function Hero() {
         </h1>
 
         {/* Subheading */}
-        <p className="hero-reveal section-reveal mb-10 md:mb-12 text-white/55 text-base sm:text-lg md:text-xl mx-auto leading-relaxed font-light max-w-3xl">
+        <p className="hero-reveal section-reveal mb-10 md:mb-8 text-white/55 text-base sm:text-lg md:text-xl mx-auto leading-relaxed font-light max-w-3xl">
           {heroContent.subheading}
         </p>
 
         {/* CTAs */}
-        <div className="hero-reveal section-reveal flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-5 justify-center items-center">
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 md:gap-5 justify-center items-center mt-4">
           <Button
             variant="primary"
             size="md"
-            className="min-w-45 rounded-lg"
+            className="min-w-50 rounded-lg shadow-[0_4px_24px_rgba(79,255,176,0.2)] bg-linear-to-br from-[#4fffb0] via-[#00e5cc] to-[#4fffb0] bg-size-[200%_auto] hover:bg-size-[100%_auto] transition-all duration-500"
             onClick={() => scrollTo('contact')}
           >
             {heroContent.ctaPrimary}
@@ -111,14 +112,65 @@ export default function Hero() {
             </svg>
           </Button>
         </div>
-      </div>
 
-      {/* Scroll indicator */}
-      <div className="absolute bottom-6 md:bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
-        <span className="text-white/35 text-[11px] tracking-[0.16em] uppercase">
-          Scroll
-        </span>
-        <div className="w-px h-9 md:h-10 bg-linear-to-b from-white/20 to-transparent" />
+        {/* Brand Logos */}
+        <div className="mt-16 md:mt-24 w-full flex flex-col items-center">
+          <p className="text-white/30 text-center text-[10px] sm:text-xs font-bold tracking-[0.2em] uppercase mb-6">
+            Trusted by Leading Brands
+          </p>
+
+          <div className="w-full max-w-3xl relative overflow-hidden border border-white/5 rounded-2xl py-1 px-4">
+            <div className="flex overflow-hidden group relative">
+              <div className="flex animate-scroll-right whitespace-nowrap min-w-max gap-16 md:gap-24 items-center px-8">
+                {/* 3 Sets for an absolute seamless loop at higher speeds */}
+                {[...Array(4)].map((_, setIdx) => (
+                  <div
+                    key={setIdx}
+                    className="flex gap-16 md:gap-24 items-center"
+                  >
+                    {[
+                      {
+                        src: '/Mindika.png',
+                        alt: 'Mindika Enterprises',
+                        className: 'h-8 sm:h-10 md:h-22',
+                      },
+                      {
+                        src: '/Mintup.png',
+                        alt: 'Mintup Media',
+                        className: 'h-7 sm:h-9 md:h-22',
+                      },
+                      {
+                        src: '/NeilBakery.png',
+                        alt: 'Neil Bakery',
+                        className: 'h-8 sm:h-10 md:h-18',
+                      },
+                      {
+                        src: '/Formar.png',
+                        alt: 'Formar Clothing',
+                        className: 'h-7 sm:h-9 md:h-15 bg-white p-2 rounded-xl',
+                      },
+                    ].map((logo, i) => (
+                      <div
+                        key={`logo-${setIdx}-${i}`}
+                        className="flex items-center justify-center"
+                      >
+                        <img
+                          src={logo.src}
+                          alt={logo.alt}
+                          className={`${logo.className} w-auto object-contain transition-transform duration-300 hover:scale-110`}
+                        />
+                      </div>
+                    ))}
+                  </div>
+                ))}
+              </div>
+
+              {/* Fade Gradients for the box edges */}
+              <div className="absolute inset-y-0 left-0 w-16 bg-linear-to-r from-[#0d0d0d] to-transparent z-10" />
+              <div className="absolute inset-y-0 right-0 w-16 bg-linear-to-l from-[#0d0d0d] to-transparent z-10" />
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

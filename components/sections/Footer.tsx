@@ -35,18 +35,17 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16 md:mb-24">
           {/* Brand Column */}
           <div className="lg:col-span-5 flex flex-col items-start">
-            <h2 className="text-3xl font-black text-white tracking-tight mb-6">
-              Sethu<span className="text-[#4fffb0]">.</span>
-            </h2>
+            <img src="logo.png" alt="Logo" className="h-16 w-auto -ml-3" />
             <p className="text-white/50 text-base md:text-lg max-w-sm mb-8 font-light leading-relaxed">
-              Crafting premium digital experiences that elevate brands and drive
-              real business growth.
+              We specialize in crafting compelling content, SEO optimization,
+              and executing strategic campaigns that drive engagement and
+              growth.
             </p>
             <a
-              href="mailto:hello@sethu.dev"
+              href="mailto:mintupmedia@gmail.com"
               className="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-white/5 hover:bg-white/10 border border-white/10 text-white transition-all duration-300 gap-2 font-medium"
             >
-              hello@sethu.dev
+              mintupmedia@gmail.com
             </a>
           </div>
 
@@ -102,13 +101,13 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-white/40 text-sm">
-            © {currentYear} Sethu Ruberu. All rights reserved.
+            © {currentYear} MindUp Media. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm text-white/40">
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="/privacy" className="hover:text-white transition-colors">
               Privacy Policy
             </a>
-            <a href="#" className="hover:text-white transition-colors">
+            <a href="/terms" className="hover:text-white transition-colors">
               Terms of Service
             </a>
           </div>

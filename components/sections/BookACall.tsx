@@ -12,7 +12,7 @@ export default function BookACall() {
     >
       <div className="w-full">
         <div
-          className="relative rounded-[2.5rem] overflow-hidden px-6 md:px-12 py-16 md:py-24 text-center
+          className="relative rounded-[2.5rem] overflow-hidden px-6 md:px-12 py-16 md:py-16 text-center
             bg-linear-to-br from-[#0a0a0a] via-[#0d0d0d] to-[#0a0a0a]
             border border-white/10 shadow-2xl"
         >
@@ -59,20 +59,19 @@ export default function BookACall() {
 
             <p className="text-white/55 text-base md:text-lg mx-auto mb-12 font-light leading-relaxed max-w-xl">
               Let&apos;s talk about your project. I&apos;ll tell you exactly how
-              I&apos;d approach it — and what it would take to make it
+              I&apos;d approach it - and what it would take to make it
               exceptional.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center w-full sm:w-auto">
               <a
-                href="mailto:hello@sethu.dev"
-                className="group relative inline-flex items-center gap-3 px-10 py-5 rounded-full
-                  bg-[#4fffb0] text-[#0a0a0a] font-black text-lg
-                  hover:bg-white hover:shadow-[0_0_50px_rgba(79,255,176,0.4)]
+                href="mailto:mintupmedia@gmail.com"
+                className="group relative inline-flex items-center gap-3 px-7 py-5 rounded-full
+                  bg-[#4fffb0] text-[#0a0a0a] font-bold
                   hover:scale-105 active:scale-95
                   transition-all duration-400 cursor-pointer overflow-hidden"
               >
-                <span className="relative z-10 flex items-center gap-3">
+                <span className="relative z-10 flex items-center gap-3 text-sm">
                   Ready to build something great?
                   <svg
                     className="w-5 h-5 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-400"
@@ -100,7 +99,7 @@ export default function BookACall() {
               ].map((item) => (
                 <div
                   key={item.text}
-                  className="flex items-center gap-3 text-white/40 group"
+                  className="flex items-center gap-3 text-white/60 group"
                 >
                   <span className="text-xl group-hover:scale-125 transition-transform duration-300">
                     {item.emoji}
