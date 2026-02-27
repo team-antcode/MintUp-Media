@@ -42,7 +42,7 @@ export default function Navbar() {
             onClick={() => scrollTo('#home')}
             className="flex items-center cursor-pointer group"
           >
-            <img src="/logo.png" alt="Logo" className="h-16 w-auto" />
+            <img src="/Mintup.png" alt="Logo" className="h-16 w-auto" />
           </button>
 
           {/* Desktop Nav - Centered */}

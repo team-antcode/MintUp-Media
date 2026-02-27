@@ -30,13 +30,13 @@ export default function Footer() {
     <footer className="relative border-t border-white/10 py-20 bg-[#0a0a0a] overflow-hidden">
       {/* Background glow */}
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-3xl h-px bg-linear-to-r from-transparent via-[#4fffb0]/30 to-transparent" />
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-xl h-[200px] bg-[#4fffb0]/5 blur-[100px] rounded-full pointer-events-none" />
+      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-xl h-50 bg-[#4fffb0]/5 blur-[100px] rounded-full pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-6 md:px-12 w-full relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-12 lg:gap-8 mb-16 md:mb-24">
           {/* Brand Column */}
           <div className="lg:col-span-5 flex flex-col items-start">
-            <img src="logo.png" alt="Logo" className="h-16 w-auto -ml-3" />
+            <img src="/Mintup.png" alt="Logo" className="h-16 w-auto -ml-3" />
             <p className="text-white/50 text-base md:text-lg max-w-sm mb-8 font-light leading-relaxed">
               We specialize in crafting compelling content, SEO optimization,
               and executing strategic campaigns that drive engagement and
