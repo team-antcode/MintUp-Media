@@ -65,7 +65,9 @@ export default function BookACall() {
 
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center w-full sm:w-auto">
               <a
-                href="mailto:mintupmedia@gmail.com"
+                href="https://wa.me/94769952397"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="group relative inline-flex items-center gap-3 px-7 py-5 rounded-full
                   bg-[#4fffb0] text-[#0a0a0a] font-bold
                   hover:scale-105 active:scale-95

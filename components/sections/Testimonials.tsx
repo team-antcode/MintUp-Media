@@ -2,28 +2,22 @@ import SectionWrapper from '@/components/SectionWrapper';
 
 const testimonials = [
   {
-    text: 'MindUp Media was highly responsive and professional throughout the process. We appreciated their quick turnaround and the fresh design updates each morning, which kept the project moving forward. When requested, they worked with impressive speed - delivering us a pitch deck in under three days. Overall it was a pleasant experience working with them.',
-    author: 'Dhanya Shah',
-    role: 'Co-founder at Aegis',
-    tags: ['YC', 'X25'],
+    text: 'MindUp Media helped us modernize our digital presence with a high-converting landing page and consistent social media management. We saw a clear increase in customer engagement and inquiries. Their team truly understands how to grow local businesses in Sri Lanka.',
+    author: 'Neil Bakery',
+    role: 'Local Business',
+    tags: ['E-commerce', 'Growth'],
   },
   {
-    text: 'Working with them was an absolute game-changer for our product launch. The quality of the web design and the motion graphics exceeded our expectations. Our conversion rate practically doubled since the new site went live.',
-    author: 'Sarah Jenkins',
-    role: 'CMO at TechFlow',
-    tags: ['SaaS', 'Series A'],
+    text: 'Partnering with MindUp Media was one of the best decisions for our brand. Their content creation and social media strategies elevated our online image and boosted our sales. Professional, creative, and results-driven.',
+    author: 'Formar Clothing',
+    role: 'Fashion Brand',
+    tags: ['Content', 'Strategy'],
   },
   {
-    text: 'They took our messy brand guidelines and turned them into a cohesive, stunning visual identity. The user experience is noticeably smoother, and we have received incredible feedback from our early users.',
-    author: 'Michael Chen',
-    role: 'Founder at NovaStart',
-    tags: ['Fintech', 'Seed'],
-  },
-  {
-    text: 'The delivery was incredibly fast without sacrificing a single pixel of quality. The Framer development was flawless, and the animations added that premium feel we were desperately looking for. Highly recommend.',
-    author: 'Elena Rodriguez',
-    role: 'Head of Product',
-    tags: ['Web3', 'Scale-up'],
+    text: 'MindUp Media delivered exactly what they promised - performance and quality. From landing page development to digital marketing strategy, everything was executed with precision. Highly recommended for businesses looking to scale.',
+    author: 'Mindika Enterprises',
+    role: 'Business Services',
+    tags: ['Performance', 'Scale'],
   },
 ];
 

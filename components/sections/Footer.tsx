@@ -3,10 +3,15 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   const socialLinks = [
-    { label: 'Twitter', href: 'https://twitter.com' },
-    { label: 'LinkedIn', href: 'https://linkedin.com' },
-    { label: 'Dribbble', href: 'https://dribbble.com' },
-    { label: 'GitHub', href: 'https://github.com' },
+    {
+      label: 'Facebook',
+      href: 'https://www.facebook.com/share/p/16zecDKtPU/',
+    },
+    { label: 'WhatsApp', href: 'https://wa.me/94769952397' },
+    {
+      label: 'Instagram',
+      href: 'https://www.instagram.com/mintup.media?igsh=MmVieHlmNmk4ZGd5&utm_source=ig_contact_invite',
+    },
   ];
 
   const pageLinks = [

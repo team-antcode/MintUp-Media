@@ -124,27 +124,27 @@ export const projects: PortfolioProject[] = [
     tags: ['React', 'OpenAI', 'Supabase', 'FastAPI'],
   },
   {
-    title: 'Cartly — E-commerce Platform',
+    title: 'Cartly - E-commerce Platform',
     description:
       'Modern headless e-commerce storefront with custom CMS, inventory management, and checkout flow.',
     tags: ['Next.js', 'Stripe', 'Sanity'],
   },
-  {
-    title: 'Pulse — Health Tracker App',
-    description:
-      'Mobile-first health tracking application with biometric data visualization and coach integrations.',
-    tags: ['React Native', 'Charts', 'Firebase'],
-  },
-  {
-    title: 'LaunchKit — Startup Template',
-    description:
-      'A premium Next.js starter kit for startups — auth, billing, teams, and onboarding out of the box.',
-    tags: ['Next.js', 'Stripe', 'Auth.js'],
-  },
-  {
-    title: 'Spectral — Design Agency',
-    description:
-      'Award-winning agency website with immersive scroll animations and a portfolio showcase system.',
-    tags: ['Next.js', 'GSAP', 'Framer'],
-  },
+  // {
+  //   title: 'Pulse — Health Tracker App',
+  //   description:
+  //     'Mobile-first health tracking application with biometric data visualization and coach integrations.',
+  //   tags: ['React Native', 'Charts', 'Firebase'],
+  // },
+  // {
+  //   title: 'LaunchKit — Startup Template',
+  //   description:
+  //     'A premium Next.js starter kit for startups — auth, billing, teams, and onboarding out of the box.',
+  //   tags: ['Next.js', 'Stripe', 'Auth.js'],
+  // },
+  // {
+  //   title: 'Spectral — Design Agency',
+  //   description:
+  //     'Award-winning agency website with immersive scroll animations and a portfolio showcase system.',
+  //   tags: ['Next.js', 'GSAP', 'Framer'],
+  // },
 ];
