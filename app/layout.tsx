@@ -14,8 +14,14 @@ export const metadata: Metadata = {
   description:
     "MindUp Media is Sri Lanka's leading digital agency for high-converting landing pages, expert social media management, and content creation. Scale your brand with our premium digital products and data-driven marketing strategies.",
   keywords: [
-    'social media marketing agency sri lanka',
+    'social media marketing agency in sri lanka',
+    'social media marketing agency in colombo',
     'best landing page developers sri lanka',
+    'best Marketing page developers sri lanka',
+    'best marketing agency in sri lanka',
+    'best fullstack developers sri lanka',
+    'best web developers sri lanka',
+    'e-commerce website development sri lanka',
     'content creation agency',
     'social media handling services',
     'digital marketing sri lanka',
