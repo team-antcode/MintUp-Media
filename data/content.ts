@@ -27,7 +27,7 @@ export const aboutContent = {
   label: 'About Us',
   headline: 'We Build Your Landing Pages & Grow Your Brand',
   paragraphs: [
-    'MindUp Media is a powerhouse for digital growth. We specialize in building high-converting landing pages, expert content creation, and comprehensive social media handling that puts your brand in front of the right audience.',
+    'MintUp Media is a powerhouse for digital growth. We specialize in building high-converting landing pages, expert content creation, and comprehensive social media handling that puts your brand in front of the right audience.',
     'From strategic social media management to pixel-perfect web development, we ensure your digital presence is not just beautiful, but a results-driven asset for your business.',
   ],
   stats: [

@@ -2,19 +2,19 @@ import SectionWrapper from '@/components/SectionWrapper';
 
 const testimonials = [
   {
-    text: 'MindUp Media helped us modernize our digital presence with a high-converting landing page and consistent social media management. We saw a clear increase in customer engagement and inquiries. Their team truly understands how to grow local businesses in Sri Lanka.',
+    text: 'MintUp Media helped us modernize our digital presence with a high-converting landing page and consistent social media management. We saw a clear increase in customer engagement and inquiries. Their team truly understands how to grow local businesses in Sri Lanka.',
     author: 'Neil Bakery',
     role: 'Local Business',
     tags: ['E-commerce', 'Growth'],
   },
   {
-    text: 'Partnering with MindUp Media was one of the best decisions for our brand. Their content creation and social media strategies elevated our online image and boosted our sales. Professional, creative, and results-driven.',
+    text: 'Partnering with MintUp Media was one of the best decisions for our brand. Their content creation and social media strategies elevated our online image and boosted our sales. Professional, creative, and results-driven.',
     author: 'Formar Clothing',
     role: 'Fashion Brand',
     tags: ['Content', 'Strategy'],
   },
   {
-    text: 'MindUp Media delivered exactly what they promised - performance and quality. From landing page development to digital marketing strategy, everything was executed with precision. Highly recommended for businesses looking to scale.',
+    text: 'MintUp Media delivered exactly what they promised - performance and quality. From landing page development to digital marketing strategy, everything was executed with precision. Highly recommended for businesses looking to scale.',
     author: 'Mindika Enterprises',
     role: 'Business Services',
     tags: ['Performance', 'Scale'],
@@ -46,7 +46,7 @@ export default function Testimonials() {
           Wall of <span className="gradient-mint-text">Love</span>
         </h2>
         <p className="section-reveal stagger-1 text-white/50 text-lg md:text-xl font-light max-w-2xl mx-auto">
-          Hear what real founders say about working with MindUp Media.
+          Hear what real founders say about working with MintUp Media.
         </p>
       </div>
 

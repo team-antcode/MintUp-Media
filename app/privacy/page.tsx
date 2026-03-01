@@ -13,7 +13,7 @@ export default function PrivacyPolicy() {
           <section>
             <h2 className="text-2xl font-bold text-white mb-4">Introduction</h2>
             <p>
-              At MindUp Media, we value your privacy. This Privacy Policy
+              At MintUp Media, we value your privacy. This Privacy Policy
               explains how we collect, use, and protect your personal
               information when you use our website and services.
             </p>
@@ -56,7 +56,7 @@ export default function PrivacyPolicy() {
             <h2 className="text-2xl font-bold text-white mb-4">Contact Us</h2>
             <p>
               If you have any questions about this Privacy Policy, please
-              contact us at hello@mindupmedia.com.
+              contact us at hello@mintupmedia.com.
             </p>
           </section>
         </div>

@@ -5,7 +5,7 @@ import SectionWrapper from '@/components/SectionWrapper';
 
 const faqs = [
   {
-    question: 'What services does MindUp Media offer?',
+    question: 'What services does MintUp Media offer?',
     answer:
       'We specialize in building high-converting landing pages, social media management, content creation, and comprehensive digital marketing strategies. We handle everything from web development to growing your brand across social platforms.',
   },
@@ -30,7 +30,7 @@ const faqs = [
       'Yes! We offer ongoing support packages for website maintenance, content updates, social media management, and continuous optimization to ensure your digital presence keeps growing and performing at its best.',
   },
   {
-    question: 'How do we get started with MindUp Media?',
+    question: 'How do we get started with MintUp Media?',
     answer:
       "Simply book a free consultation call with us. We'll discuss your goals, target audience, and budget. Then we'll create a custom strategy tailored to your business needs and can start immediately.",
   },

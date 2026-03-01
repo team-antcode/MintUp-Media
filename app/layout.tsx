@@ -10,9 +10,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title:
-    'MindUp Media | Premium Web Pages & Social Media Marketing Sri Lanka',
+    'MintUp Media | Premium Web Pages & Social Media Marketing Sri Lanka',
   description:
-    "MindUp Media is Sri Lanka's leading digital agency for high-converting landing pages, expert social media management, and content creation. Scale your brand with our premium digital products and data-driven marketing strategies.",
+    "MintUp Media is Sri Lanka's leading digital agency for high-converting landing pages, expert social media management, and content creation. Scale your brand with our premium digital products and data-driven marketing strategies.",
   keywords: [
     'social media marketing agency in sri lanka',
     'social media marketing agency in colombo',
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     'digital marketing sri lanka',
     'seo optimization sri lanka',
     'high-converting landing pages',
-    'MindUp Media',
+    'MintUp Media',
     'web development sri lanka',
   ],
   openGraph: {
     title:
-      'MindUp Media | Premium Web Pages & Social Media Marketing Sri Lanka',
+      'MintUp Media | Premium Web Pages & Social Media Marketing Sri Lanka',
     description:
-      'Scale your brand with MindUp Media. Expert web pages, social media management, and content creation that drives real business growth.',
+      'Scale your brand with MintUp Media. Expert web pages, social media management, and content creation that drives real business growth.',
     type: 'website',
   },
 };

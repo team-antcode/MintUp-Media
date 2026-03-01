@@ -24,7 +24,7 @@ export default function TermsOfService() {
           <section>
             <h2 className="text-2xl font-bold text-white mb-4">Services</h2>
             <p>
-              MindUp Media provides digital marketing, social media handling,
+              MintUp Media provides digital marketing, social media handling,
               and web development services. We reserve the right to modify or
               discontinue any part of our services at any time.
             </p>
@@ -45,7 +45,7 @@ export default function TermsOfService() {
             </h2>
             <p>
               All content and materials provided as part of our services are the
-              property of MindUp Media or its licensors and are protected by
+              property of MintUp Media or its licensors and are protected by
               intellectual property laws.
             </p>
           </section>
@@ -55,7 +55,7 @@ export default function TermsOfService() {
               Limitation of Liability
             </h2>
             <p>
-              MindUp Media shall not be liable for any direct, indirect,
+              MintUp Media shall not be liable for any direct, indirect,
               incidental, or consequential damages arising out of your use of
               our services.
             </p>
