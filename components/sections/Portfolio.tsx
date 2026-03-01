@@ -37,7 +37,7 @@ export default function Portfolio() {
                   [
                     'Neil.png',
                     'Hired.png',
-                    '/project-3.jpg',
+                    'FormarProject.png',
                     '/project-4.jpg',
                     '/project-5.jpg',
                     '/project-6.jpg',
@@ -63,7 +63,7 @@ export default function Portfolio() {
                     key={tag}
                     className={`px-3.5 py-1.5 rounded-full text-[11px] font-black uppercase tracking-widest
                   bg-white/5 border border-white/8 text-white/40 transition-all duration-300 
-                  ${['Next.js', 'TypeScript', 'Prisma'].includes(tag) ? 'group-hover:text-white group-hover:border-white/20' : 'group-hover:text-[#4fffb0] group-hover:border-[#4fffb0]/20'}`}
+                  `}
                   >
                     {tag}
                   </span>

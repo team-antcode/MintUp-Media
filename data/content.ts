@@ -124,10 +124,10 @@ export const projects: PortfolioProject[] = [
     tags: ['React', 'OpenAI', 'Supabase', 'FastAPI'],
   },
   {
-    title: 'Cartly - E-commerce Platform',
+    title: 'Formar - E-commerce Platform',
     description:
       'Modern headless e-commerce storefront with custom CMS, inventory management, and checkout flow.',
-    tags: ['Next.js', 'Stripe', 'Sanity'],
+    tags: ['Next.js', 'T3 stack', 'Prisma', 'Tailwind CSS'],
   },
   // {
   //   title: 'Pulse — Health Tracker App',
