@@ -5,7 +5,7 @@ export default function Footer() {
   const socialLinks = [
     {
       label: 'Facebook',
-      href: 'https://www.facebook.com/share/p/16zecDKtPU/',
+      href: 'https://www.facebook.com/share/1Am1YbHYRb/?mibextid=wwXIfr',
     },
     { label: 'WhatsApp', href: 'https://wa.me/94769952397' },
     {
