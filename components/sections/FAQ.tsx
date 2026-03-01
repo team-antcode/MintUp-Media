@@ -62,20 +62,18 @@ export default function FAQ() {
         {faqs.map((faq, index) => (
           <div
             key={index}
-            className={`rounded-2xl border transition-colors duration-300 overflow-hidden ${
-              openIndex === index
-                ? 'border-white/20'
-                : 'bg-[#0a0a0a] border-white/5 hover:border-white/10 hover:bg-white/2'
-            }`}
+            className={`rounded-2xl border transition-colors duration-300 overflow-hidden ${openIndex === index
+              ? 'border-white/20'
+              : 'bg-[#0a0a0a] border-white/5 hover:border-white/10 hover:bg-white/2'
+              }`}
           >
             <button
               onClick={() => setOpenIndex(openIndex === index ? null : index)}
               className="w-full flex items-center justify-between p-6 md:p-8 text-left cursor-pointer"
             >
               <h3
-                className={`text-lg md:text-xl font-medium transition-colors duration-300 ${
-                  openIndex === index ? 'text-white' : 'text-white/80'
-                }`}
+                className={`text-base md:text-xl font-medium transition-colors duration-300 ${openIndex === index ? 'text-white' : 'text-white/80'
+                  }`}
               >
                 {faq.question}
               </h3>
@@ -89,11 +87,10 @@ export default function FAQ() {
               </div>
             </button>
             <div
-              className={`transition-all duration-300 ease-in-out origin-top ${
-                openIndex === index
-                  ? 'max-h-96 opacity-100 scale-y-100'
-                  : 'max-h-0 opacity-0 scale-y-95'
-              }`}
+              className={`transition-all duration-300 ease-in-out origin-top ${openIndex === index
+                ? 'max-h-96 opacity-100 scale-y-100'
+                : 'max-h-0 opacity-0 scale-y-95'
+                }`}
             >
               <p className="p-6 md:p-8 pt-0 text-white/50 font-light leading-relaxed text-base md:text-lg">
                 {faq.answer}
